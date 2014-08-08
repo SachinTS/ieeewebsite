@@ -1,0 +1,26 @@
+ 
+<html>
+	<head><title>CEO</title>
+	</head>
+
+	<body>
+		<h1>Selection of internal lecturer</h1>
+
+	</body>
+	<?php
+	$con=mysqli_connect("example.com","peter","abc123","my_db");
+	// Check connection
+	if (mysqli_connect_errno()) {
+	  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+	}
+
+	$result = mysqli_query($con,"SELECT * FROM Persons");
+
+	while($row = mysqli_fetch_array($result)) {
+	  echo $row['FirstName'] . " " . $row['LastName'];
+	  echo "<br>";
+	}
+
+	mysqli_close($con);
+	?>
+</html>
