@@ -1,0 +1,122 @@
+/*
+Template Name: Educational
+File: Tables CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+table{
+	width:100%;
+	border-collapse:collapse;
+	table-layout:auto;
+	vertical-align:top;
+	margin-bottom:15px;
+	border:1px solid #CCCCCC;
+	}
+
+table thead th{
+	color:#FFFFFF;
+	background-color:#064B72;
+	border:1px solid #CCCCCC;
+	border-collapse:collapse;
+	text-align:center;
+	table-layout:auto;
+	vertical-align:middle;
+	}
+
+table tbody td{
+	vertical-align:top;
+	border-collapse:collapse;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	}
+	
+	
+	
+table thead th, table tbody td{
+	padding:5px;
+	border-collapse:collapse;
+	}
+
+table tbody tr.light{
+	color:#666666;
+	background-color:#FFFFFF;
+	}
+
+table tbody tr.dark{
+	color:#666666;
+	background-color:#F8F8F8;
+	}
+
+table tbody tr.light td p a, table tbody tr.dark td p a{
+	color:#3366FF;
+	background-color:#FFFFFF;
+
+}
+
+table tbody tr.light td p a.event_expand, table tbody tr.dark td p a.event_expand, table tbody tr.light td p a.event_collapse, table tbody tr.light td p a.event_collapse{
+	font-weight:bold;
+	color:#666666;
+
+}
+
+/*date*/
+.meta-date{
+	position: absolute;
+	top: 0px;
+	left: -63px;
+	background: url(../images/meta-date.png) no-repeat;
+	width: 37px;
+	height: 65px;
+	font-family: 'Droid Serif', serif;
+	padding: 15px 13px;
+	color: #F1F1F1;
+}
+.meta-google-calendar{
+	position: absolute;
+	top: 90px;
+	left: -63px;
+	width: 37px;
+	height: 65px;
+	font-family: 'Droid Serif', serif;
+	padding: 15px 13px;
+	color: #F1F1F1;
+}
+.meta-date .meta-day{
+	font-size: 20px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.meta-date .meta-month{
+	font-size: 18px;
+	display: block;	
+	margin-bottom: 3px;	
+}
+
+.meta-date .meta-year{
+	font-size: 10px;
+	display: block;		
+}
+
+.date-date{
+	position: relative;
+}
+
+
+
+.yearblock{
+	background: url(../images/sidebar-header.png) no-repeat;
+	margin-bottom: 10px;
+        margin-left: 25%;
+	margin-bottom: 10px;
+	padding-left: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	align: center;
+color: #f1f1f1;
+}
+
+

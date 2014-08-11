@@ -67,43 +67,43 @@
 }
 
 .os-phrases h2:nth-child(2) > span > span > span {
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+.os-phrases h2:nth-child(3) > span > span > span {
 	-webkit-animation-delay: 5s;
 	-moz-animation-delay: 5s;
 	animation-delay: 5s;
 }
 
-.os-phrases h2:nth-child(3) > span > span > span {
-	-webkit-animation-delay: 10s;
-	-moz-animation-delay: 10s;
-	animation-delay: 10s;
+.os-phrases h2:nth-child(4) > span > span > span {
+	-webkit-animation-delay: 7s;
+	-moz-animation-delay: 7s;
+	animation-delay: 7s;
 }
 
-.os-phrases h2:nth-child(4) > span > span > span {
+.os-phrases h2:nth-child(5) > span > span > span {
+	font-size: 150px;
+	-webkit-animation-delay: 11s;
+	-moz-animation-delay: 11s;
+	animation-delay: 11s;
+	-webkit-animation-duration: 4s;
+	-moz-animation-duration: 4s;
+	animation-duration: 4s;
+}
+
+.os-phrases h2:nth-child(6) > span > span > span {
 	-webkit-animation-delay: 15s;
 	-moz-animation-delay: 15s;
 	animation-delay: 15s;
 }
 
-.os-phrases h2:nth-child(5) > span > span > span {
-	font-size: 150px;
-	-webkit-animation-delay: 21s;
-	-moz-animation-delay: 21s;
-	animation-delay: 21s;
-	-webkit-animation-duration: 8s;
-	-moz-animation-duration: 8s;
-	animation-duration: 8s;
-}
-
-.os-phrases h2:nth-child(6) > span > span > span {
-	-webkit-animation-delay: 30s;
-	-moz-animation-delay: 30s;
-	animation-delay: 30s;
-}
-
 .os-phrases h2:nth-child(7) > span > span > span {
-	-webkit-animation-delay: 34s;
-	-moz-animation-delay: 34s;
-	animation-delay: 34s;
+	-webkit-animation-delay: 17s;
+	-moz-animation-delay: 17s;
+	animation-delay: 17s;
 }
 
 @-webkit-keyframes OpeningSequence {
@@ -186,9 +186,9 @@
 
 .os-phrases h2:nth-child(8) > span > span > span {
 	font-size: 30px;
-	-webkit-animation: FadeIn 4s linear 40s forwards;
-	-moz-animation: FadeIn 4s linear 40s forwards;
-	animation: FadeIn 4s linear 40s forwards;
+	-webkit-animation: FadeIn 2s linear 20s forwards;
+	-moz-animation: FadeIn 2s linear 20s forwards;
+	animation: FadeIn 2s linear 20s forwards;
 }
 
 @-webkit-keyframes FadeIn { 
